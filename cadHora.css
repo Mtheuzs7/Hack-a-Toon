@@ -1,0 +1,54 @@
+body {
+    background-color: #E9ECEF; 
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #93D19E; 
+    color: #000; 
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; 
+    min-height: calc(100vh - 80px);
+}
+
+input {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+button {
+    background-color: #268135;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white; 
+    color: #268135;
+    border: 2px solid #268135;
+}
+
+.btn-sm {
+    background-color: inherit;
+    border: none;
+}
+
+.btn-sm:active {
+    background-color: inherit;
+    border: none;
+}
+
+.btn-sm:hover {
+    background-color: inherit;
+    border: none;
+}
