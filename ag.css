@@ -1,0 +1,52 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #93D19E;
+    color: black;
+}
+
+.card {
+    border-radius: 20px 20px 0 0;
+    border: inherit;
+}
+
+.card-2 {
+    border-radius: 20px 20px 0 0;
+    min-height: calc(100vh - 80px);
+    border: inherit;
+}
+
+.schedule-card {
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.schedule-time {
+    top: 10px;
+    right: 15px;
+    font-size: 0.85rem;
+    color: #198754;
+}
+
+.schedule-card h6 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.schedule-card p {
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.schedule-card a {
+    font-size: 0.85rem;
+    color: #198754;
+    font-weight: bold;
+}
